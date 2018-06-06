@@ -58,23 +58,28 @@ public class Binary2 {
 			System.out.println("The [" + i + "] element is: " + fullCode[i]);
 		}
 		for(int i = 0; i < 4; i++) {
-			int count = 0;
 			splitCode[i][0] = split.firstHalf(fullCode[i]);
-			System.out.println(splitCode[0][count]);
 			splitCode[i][1] = split.secondHalf(fullCode[i]);
-			count++;
-			System.out.println(splitCode[0][count]);
 			
 		}
 		// end of cutting the byte in two
 
 		// testing splitCode array
-		for(int i =0; i < 4; i++) {
-			for(int j = 0; j < 2; j++) {
-				System.out.println("This is element [" + i + "] " + " [" + j + "]: " + splitCode[i][j]);
-			}
-		}
+//		for(int i =0; i < 4; i++) {
+//			for(int j = 0; j < 2; j++) {
+//				System.out.println("This is element [" + i + "] " + " [" + j + "]: " + splitCode[i][j]);
+//			}
+//		}
 		// end of splitCode array testing
+		
+		System.out.print("[" + 0 + "] " + " [" + 0 + "]: " + splitCode[0][0] + " | ");
+		System.out.println(" [" + 0 + "] " + " [" + 1 + "]: " + splitCode[0][1] + " | ");
+		System.out.print("[" + 1 + "] " + " [" + 0 + "]: " + splitCode[1][0] + " | ");
+		System.out.println(" [" + 1 + "] " + " [" + 1 + "]: " + splitCode[1][1] + " | ");
+		System.out.print("[" + 2 + "] " + " [" + 0 + "]: " + splitCode[2][0] + " | ");
+		System.out.println(" [" + 2 + "] " + " [" + 1 + "]: " + splitCode[2][1] + " | ");
+		System.out.print("[" + 3 + "] " + " [" + 0 + "]: " + splitCode[3][0] + " | ");
+		System.out.println(" [" + 3 + "] " + " [" + 1 + "]: " + splitCode[3][1] + " | ");
 		
 		System.out.println("Text : " + letters);
 		System.out.println("'" + letters + "' to binary: " + binaryFull);
