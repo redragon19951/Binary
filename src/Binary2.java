@@ -68,16 +68,13 @@ public class Binary2 {
 		}
 		// end of cutting the byte in two
 
+		// testing splitCode array
 		for(int i =0; i < 4; i++) {
 			for(int j = 0; j < 2; j++) {
 				System.out.println("This is element [" + i + "] " + " [" + j + "]: " + splitCode[i][j]);
 			}
 		}
-		System.out.println("First half of A " + split.firstHalf(fullCode[0]));
-		System.out.println("---------------------------------------------------");
-		System.out.println("Second half of A " + split.secondHalf(fullCode[0]));
-		System.out.println("---------------------------------------------------");
-		
+		// end of splitCode array testing
 		
 		System.out.println("Text : " + letters);
 		System.out.println("'" + letters + "' to binary: " + binaryFull);
