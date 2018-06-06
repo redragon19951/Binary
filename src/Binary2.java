@@ -70,7 +70,6 @@ public class Binary2 {
 //				System.out.println("This is element [" + i + "] " + " [" + j + "]: " + splitCode[i][j]);
 //			}
 //		}
-		// end of splitCode array testing
 		
 		System.out.print("[" + 0 + "] " + " [" + 0 + "]: " + splitCode[0][0] + " | ");
 		System.out.println(" [" + 0 + "] " + " [" + 1 + "]: " + splitCode[0][1] + " | ");
@@ -80,6 +79,8 @@ public class Binary2 {
 		System.out.println(" [" + 2 + "] " + " [" + 1 + "]: " + splitCode[2][1] + " | ");
 		System.out.print("[" + 3 + "] " + " [" + 0 + "]: " + splitCode[3][0] + " | ");
 		System.out.println(" [" + 3 + "] " + " [" + 1 + "]: " + splitCode[3][1] + " | ");
+
+		// end of splitCode array testing
 		
 		System.out.println("Text : " + letters);
 		System.out.println("'" + letters + "' to binary: " + binaryFull);
